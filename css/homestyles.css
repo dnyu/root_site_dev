@@ -103,9 +103,13 @@ body {
 	float : center;
 }
 
-.col-sm-8{
-	text-align : left;
+.bullet-points{
+	font-size : 18px;
+	word-wrap : break-word;
+	left : -20px;
 }
+
+
 
 .socketI{
 	height : 120px;
