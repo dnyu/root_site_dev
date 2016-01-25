@@ -18,7 +18,7 @@ body {
 
 .intro-text {
 	margin-top: 0px;
-	padding-top: 200px;
+	padding-top: 130px;
 	width: 100%;
 	color: transparent;
 	font-size: 50px;
@@ -100,6 +100,7 @@ body {
 
 .container{
 	float : center;
+	padding-right: 70px;
 }
 
 .bullet-points{
@@ -110,8 +111,18 @@ body {
 
 .socketVector{
 	height :400px;
-	padding-left: 40px;
+	padding-left: 0px;
 	padding-top: 80px;
+}
+
+.slogan{
+	color : #13ED3B;
+	text-align : center;
+}
+
+.logoTL{
+	height : 50px;
+	padding-left : -100px;
 }
 
 .socketI{
