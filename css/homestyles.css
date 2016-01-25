@@ -18,7 +18,7 @@ body {
 
 .intro-text {
 	margin-top: 0px;
-	padding-top: 465px;
+	padding-top: 200px;
 	width: 100%;
 	color: transparent;
 	font-size: 50px;
@@ -29,10 +29,9 @@ body {
 
 /* Logo */
 .logo {
-	display: block;
-	margin-top: 0px;
-	height: 400px;
-	margin-left: 475px; margin-right: auto;
+	height : 40%;
+	margin-left : 490px;
+	margin-top : 110px;
 }
 
 .outlineElement {
@@ -109,7 +108,11 @@ body {
 	left : -20px;
 }
 
-
+.socketVector{
+	height :400px;
+	padding-left: 40px;
+	padding-top: 80px;
+}
 
 .socketI{
 	height : 120px;

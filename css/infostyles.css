@@ -28,10 +28,7 @@ body {
 
 /* Logo */
 .logo {
-	display: block;
-	margin-top: 0px;
-	height: 400px;
-	margin-left: 475px; margin-right: auto;
+	left : 300px;
 }
 
 
