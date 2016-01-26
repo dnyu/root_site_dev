@@ -30,7 +30,7 @@ body {
 /* Logo */
 .logo {
 	height : 40%;
-	margin-left : 490px;
+	margin-left : 500px;
 	margin-top : 110px;
 }
 
@@ -147,4 +147,32 @@ body {
 	border-radius : 50%;
 	position : static;
 	padding: 3px 3px 3px 3px;
+}
+
+.pg2-header{
+	text-align : center;
+}
+
+.venn-text{
+	padding-left:40px;
+	text-align : right;
+}
+
+.bigDataStuff{
+	overflow:  visible;
+}
+
+.stLt{
+	text-align : center;
+	padding-top: 80px;
+}
+
+.bigData{
+	height : 400px;
+}
+
+.newsocket{
+	height:300px;
+	padding-left: 150px;
+	padding-bottom: 20px;
 }
