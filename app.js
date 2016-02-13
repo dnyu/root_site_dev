@@ -18,5 +18,5 @@ app.set('view engine', 'html');
 /* Run the server */
 
 console.log('Root');
-app.listen(80);
-console.log('Server running on port 80. Now open http://localhost:80/ in your browser!');
+app.listen(8080);
+console.log('Server running on port 8080. Now open http://localhost:80/ in your browser!');
