@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html ng-app="myApp">
+
+<head>
+  <!-- SCROLLS -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" type="css" href="styles.css">
+  <!-- SPELLS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+</head>
+
+<body>
+  <div class= "main" id="main">
+  <nav class="navbar">
+  <br>
+    <div class="container">
+            <div id="buttonlist" class="btn-group btn-group-justified">
+            <div class="col-sm-1">
+            </div>
+             <div class="col-sm-1">
+            </div>
+            <div class="col-sm-2">
+                          <a class="btn" href="#/home"><font face="Trebuchet MS">ROOT</font></a>
+            </div>          
+            <div class="col-sm-2">
+                          <a class="btn" href="#/why"><font face="Trebuchet MS">WHY</font></a>
+            </div>          
+            <div class="col-sm-2">
+                          <a class="btn" href="#/blog"><font face="Trebuchet MS">BLOG</font></a>
+            </div>          
+            <div class="col-sm-2">
+                          <a class="btn" href="#/team"><font face="Trebuchet MS">TEAM</font></a>
+            </div>       
+            <div class="col-sm-1"></div>
+          </div>  
+  </div>
+  </nav>
+          <div ng-view></div>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="home/home.js"></script>
+  <script src="why/why.js"></script>
+  <script src="blog/blog.js"></script>
+  <script src="team/team.js"></script>
+  <script src="contact/contact.js"></script>
+</body>
+</html>
