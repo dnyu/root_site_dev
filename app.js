@@ -1,30 +1,6 @@
 var express = require('express');
 var app = express();
 
-$("b1").click(function() {
-    $('html,body').animate({
-        scrollTop: $("p1").offset().top},
-        'slow');
-});
-
-$("b2").click(function() {
-    $('html,body').animate({
-        scrollTop: $("p2").offset().top},
-        'slow');
-});
-
-$("b3").click(function() {
-    $('html,body').animate({
-        scrollTop: $("p3").offset().top},
-        'slow');
-});
-
-$("b4").click(function() {
-    $('html,body').animate({
-        scrollTop: $("p4").offset().top},
-        'slow');
-});
-
 app.use(express.bodyParser());
 app.use(express.logger("default"));
 
