@@ -13,11 +13,15 @@ body {
 /* Main */
 .main {
     width: 100%; height: 100%;
-    background-image: url("../img/background.png"), linear-gradient(100deg, rgb(60, 60, 60) 30%, black);
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: black;
 }
 
 .navbar{
-    background-image: url("../img/background.png"), linear-gradient(100deg, rgb(60, 60, 60) 30%, black);
+    background-color: black;
+    position: fixed;
+    width: 100%;
 }
 
 .intro-text {
@@ -45,11 +49,15 @@ body {
 }
 
 .socketVector{
-  height :500px;
-  padding-top: 60px;
+  height :400px;
+  padding-top: 50px;
   padding-bottom: 60px;
 }
 
+.blog{
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
 .socketI{
     height : 120px;
@@ -107,6 +115,10 @@ body {
     color: white;
 }
 
+.page-header{
+  padding-top: 40px;
+}
+
 .diag{
     padding-top: 0px;
     width: 70%;
@@ -158,10 +170,23 @@ body {
     display: inline-block;
 }
 
+.pinapple {
+  padding-top: 40px;
+}
+
 .displayed {
     display: block;
     margin-left: auto;
     margin-right: auto 
+}
+
+.data-text{
+ padding-top: 40px;
+
+}
+
+.networkHead{
+  padding-top: 40px;
 }
 
 .slogan{
@@ -258,6 +283,11 @@ body {
     background-color: transparent;
   }
 
+.p2{
+  padding-top: 60px;
+}
+
 .turingname {
+   padding-top: 30px;
    width: 30%;
 }
