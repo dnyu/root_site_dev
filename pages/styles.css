@@ -15,11 +15,12 @@ body {
     width: 100%; height: 100%;
     padding-left: 40px;
     padding-right: 40px;
-    background-color: black;
+    background-color: white;
 }
 
 .navbar{
-    background-color: black;
+    background-color: white;
+    padding-bottom: 15px;
     position: fixed;
     width: 100%;
 }
@@ -117,7 +118,7 @@ body {
 }
 .container{
     float : center;
-    color: white;
+    color: black;
 }
 
 .page-header{
@@ -126,7 +127,7 @@ body {
 
 .diag{
     padding-top: 0px;
-    width: 70%;
+    width: 60%;
 }
 
 #menu-outer {
@@ -149,7 +150,7 @@ body {
 }
 
 .bigData {
-  height : 400px;
+  height : 150px;
 }
 
 .blog{
@@ -158,9 +159,9 @@ body {
 }
 
 .btn {
-  background-color: black;
+  background-color: transparent;;
     border: white;
-    color: white;
+    color: black;
     padding: 2px 3px 2px 3px;
     text-align: center;
     font-size: 16px;
