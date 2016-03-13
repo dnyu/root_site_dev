@@ -1,191 +1,221 @@
 body {
-  font-family: Avenir, Vito, Calibri;
-  margin: 0;
+	font-family: Avenir, Vito, Calibri;
+	margin: 0;
 }
 
 .home {
-  background-image: url("media/background.png");
-  background-size: 100%;
-  width: 100%;
-  height: 100%;
+	padding-top: 3%;
+	background-image: url("media/background.png");
+	background-size: 100%;
+	width: 100%;
+	height: 95%;
+}
+
+.root {
+	padding-top: 3%;
 }
 
 .why {
-  background-color: #e6ffe6;
+	padding-top: 3%;
+	background-color: #e6ffe6;
+}
+
+.team {
+	padding-top: 3%;
+}
+
+.help {
+	padding-top: 3%;
+	background-color: #e6ffe6;
 }
 
 .logo {
-  margin-top: 2%;
-  margin-left: 2%;
-  width: 5%;
+	margin-top: 2%;
+	margin-left: 2%;
+	width: 5%;
 }
 
 .mailchimp {
-  padding-top: 2%;
-  padding-right: 30%;
-  padding-left: 30%;
-  text-align: center;
+	padding-top: 2%;
+	padding-right: 30%;
+	padding-left: 30%;
+	text-align: center;
 }
 
 .mc_input{
-  font: 50% Avenir, Vito, Calibri;
-  width: 25%;
+	font: 50% Avenir, Vito, Calibri;
+	width: 25%;
 }
 .button{
-  font-size: 40% Avenir, Vito, Calibri;
+	font-size: 40% Avenir, Vito, Calibri;
 }
 
 .title_text {
-  font-size: 185%;
+	font-size: 185%;
     width: 50%;
     margin: 0 auto; 
     text-align: center;
 }
 
 .root_white {
-  margin-top: 3%;
-  margin-bottom: 3%;
-  width: 25%;
-  margin-left: 36%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	width: 25%;
+	margin-left: 36%;
 }
 
 .root_full {
-  margin-bottom: 2%;
-  width: 22%;
-  margin-left: 38%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 22%;
+	margin-left: 38%;
 }
 
 .root_text {
+	font-family: eurostile;
     margin: 0 auto; 
-    font-size: 350%;
+    font-size: 400%;
     text-align: center;
+	margin-bottom: 2%;
     width: 100%;
     height: 10%;
 }
 
 .intro_text {
-  width: 100%;
-  height: .1%;
-  font-size: 90%;
-  text-align: center;
+	width: 100%;
+	height: .1%;
+	font-size: 90%;
+	text-align: center;
+	padding-bottom: 2%;
 }
 
 .info_text_we {
-  margin-left: 22%;
-  margin-right: 22%;
-  font-size: 125%;
-  text-align: left;
+	margin-top: 1.5%;
+	margin-left: 22%;
+	margin-right: 22%;
+	font-size: 125%;
+	text-align: left;
 }
 
 .info_text_large {
-  padding-top: .5%;
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 200%;
-  text-align: center;
+	padding-top: .5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 200%;
+	text-align: center;
 }
 
 .info_text_huge {
-  padding-top: .5%;
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 300%;
-  text-align: center;
+	margin-top: 1.5%;
+	padding-top: .5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 300%;
+	text-align: center;
 }
 
 .info_text_intro {
-  margin-left: 22%;
-  margin-right: 22%;
-  font-size: 120%;
-  text-align: left;
+	margin-left: 22%;
+	margin-right: 22%;
+	font-size: 120%;
+	margin-bottom: 1.5%;
+	text-align: left;
 }
 
 .info_text_great {
-  margin-left: 22%;
-  margin-right: 2%;
-  font-size: 125%;
-  text-align: left;
+	margin-bottom: 1.5%;
+	margin-left: 22%;
+	margin-right: 22%;
+	font-size: 125%;
+	text-align: left;
 }
 
 .team_large {
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 250%;
-  text-align: center;
+	margin-top: 2.5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 250%;
+	text-align: center;
 }
 
 .team_pics {
-  margin-left: 22%;
-  margin-right: 25%;
-  text-align: center;
+	margin-left: 22%;
+	margin-right: 25%;
+	text-align: center;
 }
 
 .mike {
-  height: 350;
+	height: 350;
 }
 .joe {
-  height: 370;
+	height: 370;
 }
 .rohun {
-  height: 350;
+	height: 350;
 }
 .don {
-  height: 350;
+	height: 350;
 }
 .drew {
-  height: 375;
+	height: 375;
 }
 
 .team_school{
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 125%;
-  text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 125%;
+	text-align: center;
 }
 
 .supporters_large {
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 200%;
-  text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 200%;
+	text-align: center;
 }
 
 .advisors {
-  margin-left: 22%;
-  margin-right: 22%;
-  font-size: 125%;
-  text-align: center;
+	margin-left: 22%;
+	margin-right: 22%;
+	font-size: 125%;
+	text-align: center;
 }
 
 .navbar{
-  background: clear;
-  position: fixed;
-  text-align: center;
-  width: 100%;
+	background-color: #FFFFFF;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	border-bottom: #000000;
 }
 
 .nav {
-  padding-top: .5%;
-  padding-bottom: .5%;
+	padding-top: .5%;
+	padding-bottom: .5%;
 }
 
 .btn{
-  font-size: 20;
-  border: black;
-  background: transparent;
+	font-size: 16;
+	background-color: #FFFFFF;
+}
+
+.btn_root{
+	font-family: eurostile;
+	font-size: 19;
+	background-color: #FFFFFF;
 }
 
 .btn2{
-  font-size: 14;
-  color: black;
-  background-color: #e6ffe6;
+	font-size: 14;
+	color: black;
+	background-color: #e6ffe6;
 }
 
 .page-scroll{
-  padding-right: 5%;
-  padding-left: 5%;
-  padding-top: .3%;
-  padding-bottom: .3%;
-  background-color: clear;
-  color: green;
+	padding-right: 3.5%;
+	padding-left: 3.5%;
+	padding-top: .2%;
+	padding-bottom: .2%;
+	background-color: clear;
+	color: green;
 }
