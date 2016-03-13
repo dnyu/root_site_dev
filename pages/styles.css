@@ -1,299 +1,191 @@
-hover/* General */
-
-html {
-    height: 100%;
+body {
+  font-family: Avenir, Vito, Calibri;
+  margin: 0;
 }
 
-body {
-    background-color: white
-    font-family: Futura,"Verd",Arial,sans-serif;
-    height: 100%;
-}   
+.home {
+  background-image: url("media/background.png");
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+}
 
-/* Main */
-.main {
-    width: 100%; height: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
-    background-color: white;
+.why {
+  background-color: #e6ffe6;
+}
+
+.logo {
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 5%;
+}
+
+.mailchimp {
+  padding-top: 2%;
+  padding-right: 30%;
+  padding-left: 30%;
+  text-align: center;
+}
+
+.mc_input{
+  font: 50% Avenir, Vito, Calibri;
+  width: 25%;
+}
+.button{
+  font-size: 40% Avenir, Vito, Calibri;
+}
+
+.title_text {
+  font-size: 185%;
+    width: 50%;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.root_white {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 25%;
+  margin-left: 36%;
+}
+
+.root_full {
+  margin-bottom: 2%;
+  width: 22%;
+  margin-left: 38%;
+}
+
+.root_text {
+    margin: 0 auto; 
+    font-size: 350%;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+
+.intro_text {
+  width: 100%;
+  height: .1%;
+  font-size: 90%;
+  text-align: center;
+}
+
+.info_text_we {
+  margin-left: 22%;
+  margin-right: 22%;
+  font-size: 125%;
+  text-align: left;
+}
+
+.info_text_large {
+  padding-top: .5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 200%;
+  text-align: center;
+}
+
+.info_text_huge {
+  padding-top: .5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 300%;
+  text-align: center;
+}
+
+.info_text_intro {
+  margin-left: 22%;
+  margin-right: 22%;
+  font-size: 120%;
+  text-align: left;
+}
+
+.info_text_great {
+  margin-left: 22%;
+  margin-right: 2%;
+  font-size: 125%;
+  text-align: left;
+}
+
+.team_large {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 250%;
+  text-align: center;
+}
+
+.team_pics {
+  margin-left: 22%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.mike {
+  height: 350;
+}
+.joe {
+  height: 370;
+}
+.rohun {
+  height: 350;
+}
+.don {
+  height: 350;
+}
+.drew {
+  height: 375;
+}
+
+.team_school{
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 125%;
+  text-align: center;
+}
+
+.supporters_large {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 200%;
+  text-align: center;
+}
+
+.advisors {
+  margin-left: 22%;
+  margin-right: 22%;
+  font-size: 125%;
+  text-align: center;
 }
 
 .navbar{
-    background-color: white;
-    padding-bottom: 15px;
-    position: fixed;
-    width: 100%;
-}
-
-.intro-text {
-    margin-top: 0px;
-    padding-top: 65px;
-    width: 100%;
-    color: transparent;
-    font-size: 50px;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 0 0 0.25px rgba(255,255,255,0.9);
-}
-
-.exceptTeam{
-  padding-left: 70px;
-  padding-right: 70px;
-}
-
-/* Logo */
-.logo {
-    display: block;
-    margin-top: 0px;
-    height: 400px;
-    margin-left: 375px; margin-right: auto;
-}
-
-.logoTL{
-  height : 50px;
-  padding-left : -100px;
-}
-
-.socketVector{
-  height :400px;
-  padding-top: 50px;
-  padding-bottom: 60px;
-}
-
-.blog{
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.socketI{
-    height : 120px;
-    position : static;
-    padding: 3px 3px 3px 3px;
-}
-
-.phone{
-    height : 120px;
-    position : static;
-    padding: 3px 3px 3px 3px;
-}
-
-.control{
-    height : 120px;
-    position : static;
-    padding: 3px 3px 3px 3px;
-}
-
-.description {
-    margin-top: 1%;
-    font-size: 30px;
-    color: #00E7A3;
-    text-align: center;
-}
-
-.upper-line{
-    width : 80%;
-}
-
-.lower-line{
-    width : 80%;
-}
-
-.col-sm-2{
-    background-color: transparent;
-    border: black;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
-.col-sm-10{
-    border: black;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-.container{
-    float : center;
-    color: black;
-}
-
-.page-header{
-  padding-top: 40px;
-}
-
-.diag{
-    padding-top: 0px;
-    width: 60%;
-}
-
-#menu-outer {
-    height: 84px;
-    background: url(images/bar-bg.jpg) repeat-x;
-}
-
-.table {
-    display: table;   /* Allow the centering to work */
-    margin: 0 auto;
-}
-
-.venn-text{
-  padding-left: 0px;
-  text-align : center;
-}
-
-.bigDataStuff {
-  overflow:  visible;
-}
-
-.bigData {
-  height : 150px;
-}
-
-.blog{
-  height: 800px;
-  color: #00E7A3;
-}
-
-.btn {
-  background-color: transparent;;
-    border: white;
-    color: black;
-    padding: 2px 3px 2px 3px;
-    text-align: center;
-    font-size: 16px;
-}
-
-.btn:hover {
-        background-color: gray;
-        color: #00E7A3;
-}
-
-#team div {
-    display: inline-block;
-}
-
-.pinapple {
-  padding-top: 40px;
-}
-
-.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
-
-.data-text{
- padding-top: 40px;
-
-}
-
-.networkHead{
-  padding-top: 40px;
-}
-
-.slogan{
-  color : #13ED3B;
-  text-align : center;
-}
-
-.newSocket{
-  height : 50%;
-}
-
-.hovereffect {
+  background: clear;
+  position: fixed;
+  text-align: center;
   width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
 }
 
-.hovereffect .overlay {
-  position: absolute;
-  overflow: hidden;
-  width: 80%;
-  height: 80%;
-  left: 10%;
-  top: 10%;
-  border-bottom: 1px solid white;
-  border-top: 1px solid white;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: scale(0,1);
-  -ms-transform: scale(0,1);
-  transform: scale(0,1);
+.nav {
+  padding-top: .5%;
+  padding-bottom: .5%;
 }
 
-.hovereffect:hover .overlay {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+.btn{
+  font-size: 20;
+  border: black;
+  background: transparent;
 }
 
-.hovereffect img {
-  display: block;
-  position: relative;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
+.btn2{
+  font-size: 14;
+  color: black;
+  background-color: #e6ffe6;
 }
 
-.hovereffect:hover img {
-  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
-  filter: brightness(0.6);
-  -webkit-filter: brightness(0.6);
-}
-
-.hovereffect h2 {
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-  font-size: 17px;
-  background-color: transparent;
-  color: white;
-  padding: 1em 0;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0,-100%,0);
-  transform: translate3d(0,-100%,0);
-}
-
-.hovereffect a, hovereffect p {
-  color: white;
-  padding: 1em 0;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0,100%,0);
-  transform: translate3d(0,100%,0);
-}
-
-.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-.panel {
-    background-color: transparent;
-  }
-
-.p2{
-  padding-top: 60px;
-}
-
-.turingname {
-   padding-top: 30px;
-   width: 30%;
+.page-scroll{
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: .3%;
+  padding-bottom: .3%;
+  background-color: clear;
+  color: green;
 }
