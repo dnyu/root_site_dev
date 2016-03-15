@@ -55,7 +55,15 @@ body {
 }
 
 .title_text {
-	font-size: 250%;
+	font-size: 350%;
+	color: white;
+    width: 70%;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.title_subtext {
+	font-size: 210%;
 	color: white;
     width: 70%;
     margin: 0 auto; 
@@ -95,10 +103,11 @@ body {
 }
 
 .info_text_we {
-	margin-top: 1.5%;
-	margin-left: 19%;
-	margin-right: 19%;
-	font-size: 125%;
+	line-height: 100%;
+	margin-bottom: 1.5%;
+	margin-left: 10%;
+	margin-right: 8%;
+	font-size: 175%;
 	text-align: left;
 }
 
@@ -106,7 +115,7 @@ body {
 	margin-left: 15%;
 	margin-right: 15%;
 	margin-bottom: 1%;
-	font-size: 200%;
+	font-size: 250%;
 	text-align: center;
 }
 
@@ -120,18 +129,20 @@ body {
 }
 
 .info_text_intro {
-	margin-left: 19%;
-	margin-right: 19%;
-	font-size: 120%;
+	line-height: 100%;
 	margin-bottom: 1.5%;
+	margin-left: 10%;
+	margin-right: 8%;
+	font-size: 175%;
 	text-align: left;
 }
 
 .info_text_great {
+	line-height: 100%;
 	margin-bottom: 1.5%;
-	margin-left: 19%;
-	margin-right: 19%;
-	font-size: 125%;
+	margin-left: 10%;
+	margin-right: 8%;
+	font-size: 175%;
 	text-align: left;
 }
 
