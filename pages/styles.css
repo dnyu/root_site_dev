@@ -116,7 +116,7 @@ body {
 	margin-left: 10%;
 	margin-right: 8%;
 	font-size: 25px;
-	text-align: left;
+	text-align: center;
 }
 
 .info_text_large {
@@ -142,7 +142,7 @@ body {
 	margin-left: 10%;
 	margin-right: 8%;
 	font-size: 175%;
-	text-align: left;
+	text-align: center;
 }
 
 .info_text_great {
@@ -151,7 +151,7 @@ body {
 	margin-left: 10%;
 	margin-right: 8%;
 	font-size: 175%;
-	text-align: left;
+	text-align: center;
 }
 
 .team_large {
