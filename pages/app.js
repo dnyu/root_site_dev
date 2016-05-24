@@ -10,5 +10,5 @@ angular.module('myApp', [
   'myApp.contact',
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/home'});
+  $routeProvider.otherwise({redirectTo: '/redirect'});
 }]);
