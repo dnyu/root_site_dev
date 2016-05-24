@@ -7,11 +7,10 @@ app.use(express.logger("default"));
 app.use(express.cookieParser());
 app.use(express.session({secret: 'n/a'}));
 
-app.use(express.static(__dirname + '/pages'));
 app.set('views', 'pages');
 app.set('view engine', 'html');
 
- app.get('/*', function(req, res){
+ app.get('/', function(req, res){
    res.render('./redirect.html');
 });
 
