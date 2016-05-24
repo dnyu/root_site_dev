@@ -10,6 +10,7 @@
       "aws-sdk": "*",
       "ejs": "*",
       "async": "*",
-      "lru-cache" : "*"
+      "lru-cache" : "*",
+      "html": "*"
    }
 }
