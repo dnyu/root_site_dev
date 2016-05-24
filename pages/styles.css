@@ -17,6 +17,7 @@ body {
 
 .root {
 	padding-top: 3%;
+	background-size: cover;
 }
 
 .why {
@@ -45,8 +46,8 @@ body {
 
 .mailchimp {
 	padding-top: 2%;
-	padding-right: 30%;
-	padding-left: 30%;
+	padding-right: 20%;
+	padding-left: 20%;
 	text-align: center;
 }
 
@@ -115,7 +116,7 @@ body {
 	margin-left: 10%;
 	margin-right: 8%;
 	font-size: 25px;
-	text-align: left;
+	text-align: center;
 }
 
 .info_text_large {
@@ -141,7 +142,7 @@ body {
 	margin-left: 10%;
 	margin-right: 8%;
 	font-size: 175%;
-	text-align: left;
+	text-align: center;
 }
 
 .info_text_great {
@@ -150,7 +151,7 @@ body {
 	margin-left: 10%;
 	margin-right: 8%;
 	font-size: 175%;
-	text-align: left;
+	text-align: center;
 }
 
 .team_large {
@@ -168,19 +169,19 @@ body {
 }
 
 .mike {
-	height: 350;
+	height: 370;
 }
-.joe {
+.strat {
+	height: 370;
+}
+.don {
+	height: 370;
+}
+.jack {
 	height: 370;
 }
 .rohun {
-	height: 350;
-}
-.don {
-	height: 350;
-}
-.drew {
-	height: 375;
+	height: 370;
 }
 
 .team_school{
@@ -222,33 +223,276 @@ body {
 	background-color: #f5f5f5;
 }
 
-/* Mobile */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 725px) {
 
 	.info_text_we {
 		line-height: 100%;
 		margin-bottom: 2.5%;
-		margin-left: 10%;
-		margin-right: 8%;
-		font-size: 8px;
+		margin-left: 8%;
+		margin-right: 7%;
+		font-size: 18px;
 		text-align: left;
 	}
 	.info_text_intro {
 		line-height: 100%;
 		margin-bottom: 2.5%;
-		margin-left: 10%;
-		margin-right: 8%;
-		font-size: 100%;
+		margin-left: 8%;
+		margin-right: 7%;
+		font-size: 18px;
 		text-align: left;
 	}
 
 	.info_text_great {
 		line-height: 100%;
 		margin-bottom: 2.5%;
-		margin-left: 10%;
-		margin-right: 8%;
-		font-size: 100%;
+		margin-left: 8%;
+		margin-right: 7%;
+		font-size: 18px;
 		text-align: left;
 	}
+
+	.root_full {
+		margin-top: 2%;
+		margin-bottom: 2%;
+		width: 50%;
+		margin-left: 25%;
+	}
+	.root_text {
+		font-family: Eurostile, Avenir, Vito, Calibri;
+	    margin: 0 auto; 
+	    font-size: 400%;
+	    text-align: center;
+	   	padding-top: 0;
+	    width: 100%;
+	    height: 2%;
+	}
+
+	.intro_text {
+		width: 100%;
+		height: .1%;
+		font-size: 90%;
+		text-align: center;
+		padding-top: 25px;
+	}
+	.mailchimp {
+		padding-top: 2%;
+		padding-right: 5%;
+		padding-left: 5%;
+		text-align: center;
+	}
 }
+
+/* Mobile */
+@media screen and (max-width: 425px) {
+
+	.info_text_we {
+		line-height: 100%;
+		margin-bottom: 2.5%;
+		margin-left: 5%;
+		margin-right: 4%;
+		font-size: 17px;
+		text-align: left;
+	}
+	.info_text_intro {
+		line-height: 100%;
+		margin-bottom: 2.5%;
+		margin-left: 5%;
+		margin-right: 4%;
+		font-size: 17px;
+		text-align: left;
+	}
+
+	.info_text_great {
+		line-height: 100%;
+		margin-bottom: 2.5%;
+		margin-left: 5%;
+		margin-right: 4%;
+		font-size: 17px;
+		text-align: left;
+	}
+
+	.root_full {
+		margin-top: 2%;
+		margin-bottom: 2%;
+		width: 50%;
+		margin-left: 25%;
+	}
+	.root_text {
+		font-family: Eurostile, Avenir, Vito, Calibri;
+	    margin: 0 auto; 
+	    font-size: 400%;
+	    text-align: center;
+	   	padding-top: 0;
+	    width: 100%;
+	    height: 2%;
+	}
+
+	.intro_text {
+		width: 100%;
+		height: .1%;
+		font-size: 90%;
+		text-align: center;
+		padding-top: 25px;
+	}
+	.info_text_large {
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-bottom: 1%;
+		font-size: 30px;
+		text-align: center;
+	}
+	.mailchimp {
+		padding-top: 2%;
+		padding-right: 5%;
+		padding-left: 5%;
+		text-align: center;
+	}
+
+	.title_text {
+		padding-top: 20px;
+		line-height: 120%;
+		font-size: 280%;
+		color: white;
+	    width: 70%;
+	    margin: 0 auto; 
+	    text-align: center;
+	}
+
+
+	.title_subtext {
+		line-height: 120%;
+		font-size: 220%;
+		padding-top: 30px;
+		color: white;
+	    width: 70%;
+	    margin: 0 auto; 
+	    text-align: center;
+	}
+
+	.root_white {
+		margin-top: 3%;
+		margin-bottom: 5%;
+		width: 50%;
+		margin-left: 26%;
+	}
+	.team_pics {
+		margin-left: 4%;
+		margin-right: 4%;
+		text-align: center;
+	}
+
+	.advisors {
+		margin-left: 4%;
+		margin-right: 4%;
+		font-size: 125%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	.info_text_we {
+		line-height: 100%;
+		margin-bottom: 2.5%;
+		margin-left: 5%;
+		margin-right: 4%;
+		font-size: 17px;
+		text-align: left;
+	}
+	.info_text_intro {
+		line-height: 100%;
+		margin-bottom: 2.5%;
+		margin-left: 5%;
+		margin-right: 4%;
+		font-size: 17px;
+		text-align: left;
+	}
+
+	.info_text_great {
+		line-height: 100%;
+		margin-bottom: 2.5%;
+		margin-left: 5%;
+		margin-right: 4%;
+		font-size: 17px;
+		text-align: left;
+	}
+
+	.root_full {
+		margin-top: 2%;
+		margin-bottom: 2%;
+		width: 50%;
+		margin-left: 25%;
+	}
+	.root_text {
+		font-family: Eurostile, Avenir, Vito, Calibri;
+	    margin: 0 auto; 
+	    font-size: 400%;
+	    text-align: center;
+	   	padding-top: 0;
+	    width: 100%;
+	    height: 2%;
+	}
+
+	.intro_text {
+		width: 100%;
+		height: .1%;
+		font-size: 90%;
+		text-align: center;
+		padding-top: 25px;
+	}
+	.info_text_large {
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-bottom: 1%;
+		font-size: 30px;
+		text-align: center;
+	}
+	.mailchimp {
+		padding-top: 2%;
+		padding-right: 5%;
+		padding-left: 5%;
+		text-align: center;
+	}
+
+	.title_text {
+		padding-top: 20px;
+		line-height: 120%;
+		font-size: 200%;
+		color: white;
+	    width: 70%;
+	    margin: 0 auto; 
+	    text-align: center;
+	}
+
+
+	.title_subtext {
+		line-height: 120%;
+		font-size: 120%;
+		padding-top: 30px;
+		color: white;
+	    width: 70%;
+	    margin: 0 auto; 
+	    text-align: center;
+	}
+
+	.root_white {
+		margin-top: 3%;
+		margin-bottom: 5%;
+		width: 40%;
+		margin-left: 30%;
+	}
+	.team_pics {
+		margin-left: 4%;
+		margin-right: 4%;
+		text-align: center;
+	}
+
+	.advisors {
+		margin-left: 4%;
+		margin-right: 4%;
+		font-size: 125%;
+		text-align: center;
+	}
+}
+
 
